@@ -1,0 +1,40 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="190dp"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="@android:color/transparent"
+			android:text="Wikipedia"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="190dp"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="@android:color/transparent"
+			android:text="Xikipedia"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<WebView
+		android:id="@+id/webview1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+</LinearLayout>
